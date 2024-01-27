@@ -182,11 +182,11 @@ nav {
 }
 .up {
   padding-left: 12px;
-  padding-top: 12px
+  padding-top: 14px
 }
 .inl {
   padding-left: 80px;
-  padding-top: 12px;
+  padding-top: 14px;
 }
 .log:hover {
   color: azure;
@@ -207,10 +207,11 @@ nav {
 }
 .ht {
   padding: 8px 15px;
+ 
 }
 .ht:hover {
   background-color: black;
-  transition: 0.2s;
+  transition: 0.6s;
 }
 .main {
   background-image: url(./background_in_space.gif);
@@ -288,3 +289,8 @@ main {
 .ac {
   color: rgb(183, 143, 219);
 }
+.hta{
+  text-decoration: none;
+  color: aliceblue;
+}
+

@@ -1,0 +1,287 @@
+body {
+  margin: 0 0;
+}
+.sec {
+  display: flex;
+  position: relative;
+}
+.img {
+  height: 40px;
+  width: 10px;
+  margin: 10px;
+}
+.imgg:hover{
+  color: aqua;
+}
+
+body {
+  margin: 0%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.menubar {
+  font-size: 18px;
+  padding: 20px;
+}
+.ic {
+  font-size: 15px;
+  opacity: 85%;
+}
+
+.menubar:hover {
+  background-color: rgb(10, 163, 99);
+  color: aliceblue;
+  transition: 0.2s;
+}
+.search {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#in {
+  border-radius: 50px;
+  width: 85%;
+  height: 35px;
+  border: 1px solid rgb(3, 3, 3);
+  outline: none;
+}
+#in:focus {
+  border: 3px solid rgb(9, 185, 112);
+}
+.ser {
+  position: absolute;
+  right: 30px;
+  top: 11px;
+}
+.opa {
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border-radius: 100%;
+  position: absolute;
+  right: 25px;
+  top: 1px;
+  opacity: 10%;
+  display: none;
+}
+
+.ser:hover + .opa {
+  display: block;
+}
+.dark {
+  margin-top: 22px;
+  position: relative;
+}
+.dapa {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: black;
+  position: absolute;
+  top: 14px;
+
+  opacity: 10%;
+  display: none;
+}
+.dark:hover + .dapa {
+  display: block;
+}
+.two {
+  display: flex;
+
+  position: absolute;
+  left: 65%;
+  top: 22px;
+}
+#job {
+  position: relative;
+}
+.text {
+  color: rgb(3, 3, 3);
+  padding-left: 10px;
+}
+.icon {
+  color: rgb(195, 131, 255);
+}
+
+.opac {
+  width: 85px;
+  height: 35px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+  left: -10px;
+  opacity: 10%;
+  display: none;
+}
+.brie:hover + .opac {
+  display: block;
+  transition: 0.2s;
+}
+.opaci {
+  width: 85px;
+  height: 35px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+
+  opacity: 10%;
+  display: none;
+}
+.bri:hover + .opaci {
+  display: block;
+  transition: 0.2s;
+}
+.opacit {
+  width: 130px;
+  height: 35px;
+  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  top: -8px;
+
+  opacity: 10%;
+  display: none;
+}
+.br:hover + .opacit {
+  display: block;
+  transition: 0.2s;
+}
+.spaces {
+  padding-left: 25px;
+}
+
+.sign {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 75px;
+  border: solidr rgb(45, 184, 137);
+  height: 5%;
+  width: 6%;
+  border-radius: 8px;
+  background-color: rgb(45, 184, 137);
+  color: aliceblue;
+  outline: none;
+  z-index: 1;
+}
+.log {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 8px;
+  border: solidr rgb(221, 226, 224);
+  width: 10%;
+  height: 5%;
+  border-radius: 8px;
+  background-color: rgb(221, 226, 224);
+  color: rgb(2, 2, 2);
+  outline: none;
+}
+.up {
+  padding-left: 12px;
+  padding-top: 5px;
+}
+.inl {
+  padding-left: 80px;
+  padding-top: 5px;
+}
+.log:hover {
+  color: azure;
+  background-color: rgb(18, 73, 55);
+}
+.sign:hover {
+  background-color: rgb(47, 114, 92);
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(24, 23, 32);
+  color: azure;
+
+  margin: 0;
+}
+.ht {
+  padding: 8px 15px;
+}
+.ht:hover {
+  background-color: black;
+  transition: 0.2s;
+}
+.main {
+   background-image:url(./background_in_space.gif) ;
+  position: relative;
+  text-align: center;
+}
+main {
+  width: 100%;
+  height: 500px;
+
+}
+.h1 {
+  position: absolute;
+  top: 15%;
+  right: 36%;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: aliceblue;
+}
+.h2 {
+  position: absolute;
+  top: 35%;
+  right: 32%;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(225, 238, 168);
+}
+.ms {
+  position: absolute;
+  top: 55%;
+  right: 33%;
+  width: 30%;
+  height: 8%;
+  border-radius: 15px;
+  outline: none;
+}
+.mser {
+  position: absolute;
+  top: 55.2%;
+  right: 33%;
+  background-color: rgb(41, 196, 100);
+  width: 8%;
+  height: 9%;
+  border-radius: 0px 15px 15px 0;
+  color: aliceblue;
+  border-left: none;
+}
+.mser:hover {
+  background-color: rgb(34, 119, 34);
+  transition: 0.2s;
+}
+.gl {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.not{
+  position: absolute;
+  top: 70%;
+  right: 40%;
+  font-size: 25px;
+  color: aliceblue;
+
+}
+.not:hover{
+  color: rgb(236, 236, 118);
+}
+.astro{
+  position: absolute;
+  height: 40%;
+  top: 50%;
+  right: 10%;
+}
